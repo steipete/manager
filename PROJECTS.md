@@ -20,8 +20,8 @@ The repositories below currently live under `~/Projects` and receive ongoing att
 
 ## Guardrail Sync Process
 
-- The canonical shared instructions live in `~/agent-scripts/AGENTS.md` (and are mirrored in `~/AGENTS.md` for Codex’s global scope). Update this file first whenever a recurring rule changes.
-- Projects that need custom guidance keep their own `AGENTS.md` (currently only `sweetistics`). When you modify repo-specific requirements, edit that repo’s file directly.
-- If you adjust shared guardrail scripts (`runner`, `scripts/committer`, browser tools, etc.), apply the change in the target repo, then immediately sync the exact patch back into `~/Projects/agent-scripts` so every project can pull the canonical version.
-- After syncing, re-run `rg --files -g 'AGENTS.md' ~/Projects` to verify only the intended repos carry local instruction files, then commit/push both the project change and the agent-scripts update.
-- Keep `~/AGENTS.md` in sync with `agent-scripts/AGENTS.md` whenever you make substantive edits so Codex picks up the latest guidance in every workspace.
+- Canonical shared instructions now live **only** in `~/Projects/agent-scripts/AGENTS.md` and the tool list in `~/Projects/agent-scripts/TOOLS.md`. Every other repo’s `AGENTS.md` is just the pointer line `READ ~/Projects/agent-scripts/{AGENTS.md,TOOLS.md} BEFORE ANYTHING (skip if files missing).`
+- When a project truly needs repo-local guidance, place it **after** the pointer line so we keep one source of truth for the shared portion. Delete any lingering `[shared]` or `<tools>` blocks when cleaning up older repos.
+- If you edit shared guardrail scripts (`runner`, `scripts/committer`, browser tools, etc.), change them in the active repo, immediately sync the exact patch into `~/Projects/agent-scripts`, and only then fan it back out. The canonical docs should explain the new behavior before you touch downstream repos.
+- When someone asks to “sync agent scripts,” the sweep is now: pull latest `agent-scripts`, ensure the pointer line exists in the target repo’s `AGENTS.md`, copy over updated helper scripts if needed, and leave repo-local notes untouched below the pointer.
+- Keep `~/AGENTS.md` (Codex global) identical to `agent-scripts/AGENTS.md`. Update both whenever you change recurring rules or the pointer text.
