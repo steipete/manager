@@ -92,6 +92,7 @@ Edit guidance: keep the actual tool list inside this `<tools></tools>` block so 
 - `scripts/runner.ts`: Bun implementation backing `runner`; run `bun scripts/runner.ts --help`.
 - `bin/sleep`: Sleep shim that enforces the 30s ceiling; run `bin/sleep --help`.
 - `xcp`: Xcode project/workspace helper; run `xcp --help`.
+- `lldb`: To debug native apps, run `lldb` inside tmux and attach to the running app to inspect state interactively.
 - `oracle`: Ask a smart AI to review code and find bugs; you must call `npx -y @steipete/oracle --help` first.
 - `mcporter`: MCP launcher for any registered MCP server; run `npx mcporter`.
 - `iterm`: Full TTY terminal via MCP; run `npx mcporter iterm`.
