@@ -1,6 +1,6 @@
 # DNS Playbook
 
-Last updated **November 19, 2025**. Paired with `DOMAINS.md`, this file captures the checklist for moving vanity domains onto Cloudflare and wiring GitHub redirects.
+Last updated **November 21, 2025**. Paired with `DOMAINS.md`, this file captures the checklist for moving vanity domains onto Cloudflare and wiring GitHub redirects.
 
 ## Tokens & CLI
 - Homebrew install: `brew install cloudflare-cli4`.
@@ -36,5 +36,7 @@ Last updated **November 19, 2025**. Paired with `DOMAINS.md`, this file captures
 ## Active Domains
 - `codexbar.app` → GitHub repo, Page Rule `7875b61b0932a3bdf9fcbea43d13e77f`.
 - `trimmy.app` → GitHub repo, Page Rule `0a4e482483f3e7775f28e85b652286f8`.
+- `askoracle.dev` → GitHub repo (`https://github.com/steipete/oracle`), Page Rule `c75b8a53d97d444c7f5d718025e041ab` (Cloudflare nameservers `kenneth` / `melany` already active).
+- `mcporter.dev` → GitHub repo (`https://github.com/steipete/mcporter`), Page Rule `2d81a7a746b395e101d64c59bee4d672`, Cloudflare nameservers `emma` / `scott` still need to replace Namecheap defaults before the redirect goes live.
 
 Update both `DOMAINS.md` and this file whenever you onboard another domain.

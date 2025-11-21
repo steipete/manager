@@ -1,6 +1,6 @@
 # Domain Redirect Cookbook
 
-This is the quick reference for parking vanity domains on GitHub repos using Cloudflare + Namecheap (updated **November 19, 2025**).
+This is the quick reference for parking vanity domains on GitHub repos using Cloudflare + Namecheap (updated **November 21, 2025**).
 
 1. **Tokens & CLI**
    - Install `cli4` via Homebrew (`brew install cloudflare-cli4`).
@@ -31,5 +31,7 @@ This is the quick reference for parking vanity domains on GitHub repos using Clo
 7. **Current redirects**
    - `codexbar.app` → `https://github.com/steipete/codexbar` (Page Rule `7875b61b0932a3bdf9fcbea43d13e77f`)
    - `trimmy.app` → `https://github.com/steipete/Trimmy` (Page Rule `0a4e482483f3e7775f28e85b652286f8`)
+   - `askoracle.dev` → `https://github.com/steipete/oracle` (Page Rule `c75b8a53d97d444c7f5d718025e041ab`)
+   - `mcporter.dev` → `https://github.com/steipete/mcporter` (Page Rule `2d81a7a746b395e101d64c59bee4d672`, nameservers still need to be flipped at Namecheap to activate)
 
 Keep this file updated whenever you add more domains or switch to the new Redirect Ruleset API.
