@@ -38,5 +38,7 @@ Last updated **November 21, 2025**. Paired with `DOMAINS.md`, this file captures
 - `trimmy.app` → GitHub repo, Page Rule `0a4e482483f3e7775f28e85b652286f8`.
 - `askoracle.dev` → GitHub repo (`https://github.com/steipete/oracle`), Page Rule `c75b8a53d97d444c7f5d718025e041ab` (Cloudflare nameservers `kenneth` / `melany` already active).
 - `mcporter.dev` → GitHub repo (`https://github.com/steipete/mcporter`), Page Rule `2d81a7a746b395e101d64c59bee4d672`, Cloudflare nameservers `emma` / `scott` still need to replace Namecheap defaults before the redirect goes live.
+- `sweetlink.dev` → GitHub repo (`https://github.com/steipete/sweetlink`), Page Rule `5c63b6071b4bbd6fa350ae8efa850900`, Cloudflare nameservers `kenneth` / `melany` active.
+- `sweetlink.ai` → GitHub repo (`https://github.com/steipete/sweetlink`), Page Rule `07f8cd77c7f1301e652f76b161b060c8`; needs Namecheap nameservers switched to Cloudflare `emma` / `scott` to activate.
 
 Update both `DOMAINS.md` and this file whenever you onboard another domain.

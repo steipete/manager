@@ -33,5 +33,7 @@ This is the quick reference for parking vanity domains on GitHub repos using Clo
    - `trimmy.app` → `https://github.com/steipete/Trimmy` (Page Rule `0a4e482483f3e7775f28e85b652286f8`)
    - `askoracle.dev` → `https://github.com/steipete/oracle` (Page Rule `c75b8a53d97d444c7f5d718025e041ab`)
    - `mcporter.dev` → `https://github.com/steipete/mcporter` (Page Rule `2d81a7a746b395e101d64c59bee4d672`, nameservers still need to be flipped at Namecheap to activate)
+   - `sweetlink.dev` → `https://github.com/steipete/sweetlink` (Page Rule `5c63b6071b4bbd6fa350ae8efa850900`)
+   - `sweetlink.ai` → `https://github.com/steipete/sweetlink` (Page Rule `07f8cd77c7f1301e652f76b161b060c8`, nameservers need to be flipped to Cloudflare `emma` / `scott`)
 
 Keep this file updated whenever you add more domains or switch to the new Redirect Ruleset API.
