@@ -1,6 +1,6 @@
 # DNS Playbook
 
-Last updated **November 21, 2025**. Paired with `DOMAINS.md`, this file captures the checklist for moving vanity domains onto Cloudflare and wiring GitHub redirects.
+Last updated **November 24, 2025**. Paired with `DOMAINS.md`, this file captures the checklist for moving vanity domains onto Cloudflare and wiring GitHub redirects.
 
 ## Tokens & CLI
 - Homebrew install: `brew install cloudflare-cli4`.
@@ -44,5 +44,11 @@ Last updated **November 21, 2025**. Paired with `DOMAINS.md`, this file captures
 - `repobar.com` → GitHub repo (`https://github.com/steipete/RepoBar`), Page Rule `e0305d7bf41aa9b56adfb483360dd5cc`, Cloudflare nameservers `emma` / `scott` active.
 - `repobar.dev` → GitHub repo (`https://github.com/steipete/RepoBar`), Page Rule `4f03d9ab06bfd3302b75c85894d7140c`, Cloudflare nameservers `emma` / `scott` active.
 - `repobar.ai` → GitHub repo (`https://github.com/steipete/RepoBar`), Page Rule `ae95538cf0c0dc1144b7c17d67aa6040`; switch Namecheap nameservers to Cloudflare `emma` / `scott` to activate.
+- `warelay.ai` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `d4a5dc81743ec53cf85c1b5c33a144a5`, Cloudflare nameservers `emma` / `scott` active.
+- `warelay.app` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `ddac8b9136c553b8a17dd49fa65a7c8d`, Cloudflare nameservers `emma` / `scott` active.
+- `warelay.bot` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `2c92074fafc5e58af9c24cf369dc1aa7`, Cloudflare nameservers `emma` / `scott` active.
+- `warelay.com` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `99859e0db704f3ee0fca099f9d8db901`, Cloudflare nameservers `emma` / `scott` active.
+- `warelay.dev` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `bf8e31a358bdd5000fbe15b89e653405`, Cloudflare nameservers `emma` / `scott` active.
+- `warelay.to` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `c3fe671bc98cfba48696ee8d784a6374`, Cloudflare nameservers `emma` / `scott` active (certificate provisioning may take a few minutes after DNS activation).
 
 Update both `DOMAINS.md` and this file whenever you onboard another domain.

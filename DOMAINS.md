@@ -1,6 +1,6 @@
 # Domain Redirect Cookbook
 
-This is the quick reference for parking vanity domains on GitHub repos using Cloudflare + Namecheap (updated **November 21, 2025**).
+This is the quick reference for parking vanity domains on GitHub repos using Cloudflare + Namecheap (updated **November 24, 2025**).
 
 1. **Tokens & CLI**
    - Install `cli4` via Homebrew (`brew install cloudflare-cli4`).
@@ -39,5 +39,11 @@ This is the quick reference for parking vanity domains on GitHub repos using Clo
    - `repobar.com` → `https://github.com/steipete/RepoBar` (Page Rule `e0305d7bf41aa9b56adfb483360dd5cc`)
    - `repobar.dev` → `https://github.com/steipete/RepoBar` (Page Rule `4f03d9ab06bfd3302b75c85894d7140c`)
    - `repobar.ai` → `https://github.com/steipete/RepoBar` (Page Rule `ae95538cf0c0dc1144b7c17d67aa6040`, flip Namecheap nameservers to Cloudflare `emma` / `scott` to activate)
+   - `warelay.ai` → `https://github.com/steipete/warelay` (Page Rule `d4a5dc81743ec53cf85c1b5c33a144a5`)
+   - `warelay.app` → `https://github.com/steipete/warelay` (Page Rule `ddac8b9136c553b8a17dd49fa65a7c8d`)
+   - `warelay.bot` → `https://github.com/steipete/warelay` (Page Rule `2c92074fafc5e58af9c24cf369dc1aa7`)
+   - `warelay.com` → `https://github.com/steipete/warelay` (Page Rule `99859e0db704f3ee0fca099f9d8db901`)
+   - `warelay.dev` → `https://github.com/steipete/warelay` (Page Rule `bf8e31a358bdd5000fbe15b89e653405`)
+   - `warelay.to` → `https://github.com/steipete/warelay` (Page Rule `c3fe671bc98cfba48696ee8d784a6374`)
 
 Keep this file updated whenever you add more domains or switch to the new Redirect Ruleset API.
