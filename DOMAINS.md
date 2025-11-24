@@ -35,5 +35,9 @@ This is the quick reference for parking vanity domains on GitHub repos using Clo
    - `mcporter.dev` → `https://github.com/steipete/mcporter` (Page Rule `2d81a7a746b395e101d64c59bee4d672`, nameservers still need to be flipped at Namecheap to activate)
    - `sweetlink.dev` → `https://github.com/steipete/sweetlink` (Page Rule `5c63b6071b4bbd6fa350ae8efa850900`)
    - `sweetlink.ai` → `https://github.com/steipete/sweetlink` (Page Rule `07f8cd77c7f1301e652f76b161b060c8`, nameservers need to be flipped to Cloudflare `emma` / `scott`)
+   - `repobar.app` → `https://github.com/steipete/RepoBar` (Page Rule `b045f847ac881694ba24bf3f24e0f7e6`)
+   - `repobar.com` → `https://github.com/steipete/RepoBar` (Page Rule `e0305d7bf41aa9b56adfb483360dd5cc`)
+   - `repobar.dev` → `https://github.com/steipete/RepoBar` (Page Rule `4f03d9ab06bfd3302b75c85894d7140c`)
+   - `repobar.ai` → `https://github.com/steipete/RepoBar` (Page Rule `ae95538cf0c0dc1144b7c17d67aa6040`, flip Namecheap nameservers to Cloudflare `emma` / `scott` to activate)
 
 Keep this file updated whenever you add more domains or switch to the new Redirect Ruleset API.
