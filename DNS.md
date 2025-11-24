@@ -51,4 +51,6 @@ Last updated **November 24, 2025**. Paired with `DOMAINS.md`, this file captures
 - `warelay.dev` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `bf8e31a358bdd5000fbe15b89e653405`, Cloudflare nameservers `emma` / `scott` active.
 - `warelay.to` → GitHub repo (`https://github.com/steipete/warelay`), Page Rule `c3fe671bc98cfba48696ee8d784a6374`, Cloudflare nameservers `emma` / `scott` active (certificate provisioning may take a few minutes after DNS activation).
 
+All warelay* HTTPS redirects verified on **2025-11-24**.
+
 Update both `DOMAINS.md` and this file whenever you onboard another domain.

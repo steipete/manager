@@ -46,4 +46,6 @@ This is the quick reference for parking vanity domains on GitHub repos using Clo
    - `warelay.dev` → `https://github.com/steipete/warelay` (Page Rule `bf8e31a358bdd5000fbe15b89e653405`)
    - `warelay.to` → `https://github.com/steipete/warelay` (Page Rule `c3fe671bc98cfba48696ee8d784a6374`)
 
+All warelay* HTTPS redirects verified on **2025-11-24**.
+
 Keep this file updated whenever you add more domains or switch to the new Redirect Ruleset API.
