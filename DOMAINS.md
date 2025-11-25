@@ -29,6 +29,13 @@ This is the quick reference for parking vanity domains on GitHub repos using Clo
    - Once local DNS TTLs expire (or after flushing the resolver), plain `curl -I https://example.com` succeeds without `--resolve`.
 
 7. **Current redirects**
+   - `axorcist.dev` → `https://github.com/steipete/AXorcist` (redirect managed in DNSimple)
+   - `tachikoma.build` → `https://github.com/steipete/Tachikoma` (redirect managed in DNSimple)
+   - `tautui.com` → `https://github.com/steipete/TauTUI` (redirect managed in DNSimple)
+   - `tautui.dev` → `https://github.com/steipete/TauTUI` (redirect managed in DNSimple)
+   - `commander.to` → `https://github.com/steipete/Commander` (redirect managed in DNSimple)
+   - `tmuxwatch.com` → `https://github.com/steipete/tmuxwatch` (redirect managed in DNSimple)
+   - `tmuxwatch.dev` → `https://github.com/steipete/tmuxwatch` (redirect managed in DNSimple)
    - `codexbar.app` → `https://github.com/steipete/codexbar` (Page Rule `7875b61b0932a3bdf9fcbea43d13e77f`)
    - `trimmy.app` → `https://github.com/steipete/Trimmy` (Page Rule `0a4e482483f3e7775f28e85b652286f8`)
    - `askoracle.dev` → `https://github.com/steipete/oracle` (Page Rule `c75b8a53d97d444c7f5d718025e041ab`)
